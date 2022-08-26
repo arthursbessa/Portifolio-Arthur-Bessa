@@ -1,0 +1,17 @@
+footer {
+	text-align: center;
+	/*Em vez de declararmos uma cor, é possivel declarar uma imagem para usar no background da pagina, com o url("nome da imagem")*/
+	background: url("images.png");
+	padding: 15px 0px;
+}
+
+.arthur {
+	width: 10%;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 20px 0 0;
+}

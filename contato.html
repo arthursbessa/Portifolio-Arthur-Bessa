@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portifólio - Arthur Bessa</title>
+    
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="cabecalho.css">
+        <link rel="stylesheet" href="contato.css">
+        <link rel="stylesheet" href="rodape.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="caixa">
+                <h1>Portifólio - Arthur Bessa</h1>
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://drive.google.com/u/0/uc?id=1PTMyEBg0eOlgo7Z9QHkqKHNJc1PSSxrj&export=download">Curriculo</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+    
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="nome-completo">Nome Completo</label>
+                <input type="text" id="nome-completo" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="nome@dominio.com">
+
+                <label for="contato">Contato</labell>
+                <input type="tel" id="contato" class="input-padrao" required placeholder="(DDD)XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
+
+                <fieldset>
+
+                    <legend>Como prefere o contato?</legend>
+
+                    <label for="radio-email"><input type="radio" id="radio-email" value="email" name="contato">Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" id="radio-telefone" value="telefone" name="contato">Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" value="whatsapp" name="contato" checked>WhatsApp</label>
+
+                </fieldset>
+
+                <label><input type="checkbox" class="checkbox" checked>Gostaria de receber novidades por email?</label>
+
+                <input type="submit" value="Enviar formulario" class="enviar">
+ 
+            </form>
+        </main>
+
+        <footer>
+            <img src="arthur.png" class="arthur">
+            <p class="copyright">&copy; Copyright Arthur Bessa - 2022</p>
+        </footer>
+
+    </body>
+
+</html>

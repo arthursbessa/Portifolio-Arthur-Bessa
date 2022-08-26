@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(rgba(216, 207, 203, 0.781), rgb(136, 35, 136), rgb(74, 74, 161));
+}
+
+main {
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10em;
+    margin: 0 auto;
+}
+
+form {
+    margin: 2em 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 2em 0.2em;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

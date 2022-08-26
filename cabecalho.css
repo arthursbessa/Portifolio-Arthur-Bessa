@@ -1,0 +1,41 @@
+header {
+    background: url("images.jfif");
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.caixa {
+    position: relative;
+	text-align: center;
+	padding: 0 0 2em;
+}
+
+h1 {
+    display: inline-block;
+	margin: 3% 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 3em;
+}
+
+nav a {
+    text-transform: uppercase;
+	font-size: 18px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
