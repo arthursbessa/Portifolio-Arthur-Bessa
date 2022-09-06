@@ -3,14 +3,14 @@ body {
 }
 
 main {
-    width: 85%;
     font-family: 'Montserrat', sans-serif;
     padding-top: 10em;
     margin: 0 auto;
 }
 
 form {
-    margin: 2em 0;
+    margin: 3em 0;
+    margin-left: 10%;
 }
 
 form label, form legend {
@@ -63,3 +63,23 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+@media screen and (max-width: 480px) {
+    html{
+        width: 624px;
+    }
+
+    form label, form legend {
+        font-size: 30px;
+        margin: 0 0 20px;
+    }
+
+    .input-padrao {
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 12px;
+        width: 624px;
+    }
+    }

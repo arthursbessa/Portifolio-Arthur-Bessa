@@ -39,3 +39,24 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 480px) {
+
+    nav ul {
+        margin-top: 1.5em;
+    }
+
+    nav li {
+        display: inline;
+        margin: auto 1.2em;
+    }
+    
+    nav a {
+        text-transform: uppercase;
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    }

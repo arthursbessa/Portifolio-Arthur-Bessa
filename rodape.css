@@ -1,8 +1,10 @@
 footer {
+	display: inline-block;
 	text-align: center;
 	/*Em vez de declararmos uma cor, é possivel declarar uma imagem para usar no background da pagina, com o url("nome da imagem")*/
 	background: url("images.png");
 	padding: 15px 0px;
+	width: 100%;
 }
 
 .arthur {

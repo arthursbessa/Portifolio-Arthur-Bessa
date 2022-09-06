@@ -1,3 +1,7 @@
+body {
+    display: inline-block;
+}
+
 main {
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(rgba(216, 207, 203, 0.781), rgb(136, 35, 136), rgb(74, 74, 161));
@@ -57,7 +61,8 @@ main {
 }
 
 .imagens {
-    margin: 0 5em;
+    text-align: center;
+    margin: 0 em;
 }
 
 .linguagens {
@@ -92,3 +97,18 @@ main {
 	margin: 0 auto;
     padding-bottom: 2em;
 }
+
+@media screen and (max-width: 480px) {
+    main{
+        width: auto;
+        display: inline-block; 
+    }
+
+    .mapa {
+        width: 95%;
+    }
+
+    .video {
+        margin: auto 2em;
+    }
+    }
